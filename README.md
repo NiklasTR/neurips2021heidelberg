@@ -1,7 +1,17 @@
 neurips2021heidelberg
 ==============================
 
+
+
 A short description of the project.
+
+For modeling, let's use docker containers. The official MOFA2 docker container can be found here: 
+docker pull gtca/mofa2
+
+For data access, you can pull the required data from AWS.
+aws s3 sync s3://openproblems-bio/public/explore  /tmp/public/ --no-sign-request
+
+
 
 Project Organization
 ------------
